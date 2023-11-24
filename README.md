@@ -10,9 +10,7 @@ Weather app display the current and next some days display the weather condition
 2. dio: API calling
 3. get_it: Dependency injection (DI)
 4. freezed: Serialization
-   https://medium.com/@kamal.lakhani56/freezed-flutter-607505cf1620
-5. flutter_localizations: Translate language
-6. Now run the generator / generate
+5. Now run the generator / generate
    ```
     flutter packages pub run build_runner build
     dart pub run build_runner build --delete-conflicting-outputs
@@ -24,12 +22,11 @@ Weather app display the current and next some days display the weather condition
    
     flutter update-packages --force-upgrade
    ```
-7. Cubit: State management
-8. flutter_dotenv: Use to define API base url
-9. pretty_dio_logger: When call the API display the response in Run.
-10. code structure: Clean architecture
-    https://medium.com/@kamal.lakhani56/clean-architecture-f23b7d9c6ee7
-11. Material3 support
-12. Impeller support
-13. .env: API point declare
+6. Cubit: State management
+7. flutter_dotenv: Use to define API base url
+8. pretty_dio_logger: When call the API display the response in Run.
+9 code structure: Clean architecture
+10. Material3 support
+11. Impeller support
+12. .env: API point declare
 
