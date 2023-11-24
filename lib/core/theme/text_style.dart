@@ -1,9 +1,3 @@
-/*
-* @author: kamlesh
-* @create date: 16-2-22 16:11
-* @last update date:
-*/
-
 import 'color.dart';
 import 'font.dart';
 
