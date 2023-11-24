@@ -10,7 +10,6 @@ Weather app display the current and next some days display the weather condition
 2. dio: API calling
 3. get_it: Dependency injection (DI)
 4. freezed: Serialization
-   https://medium.com/@kamal.lakhani56/freezed-flutter-607505cf1620
 5. Now run the generator / generate
    ```
     flutter packages pub run build_runner build
