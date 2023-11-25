@@ -59,12 +59,7 @@ class RemoteDataSourceImpl implements RemoteDataSource {
 
   Future<DioBaseResponse> _getForecastById(
           {required Map<String, dynamic>? params}) async =>
-      apiConsumer.get(url: endPointConstant.forCastIdHistory, params: {
-        'q': 'id:1104989',
-        'days': 5,
-        'aqi': 'no',
-        'alerts': 'no'
-      }).then((value) => DioBaseResponse(
+      apiConsumer.get(url: endPointConstant.forCastIdHistory, params: params).then((value) => DioBaseResponse(
           statusCode: value.statusCode,
           message: value.message,
           data: value.data));
